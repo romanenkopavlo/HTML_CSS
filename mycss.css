@@ -1,0 +1,17 @@
+body {
+    color: purple;
+}
+h1 {
+    text-align: center;
+}
+p {
+    background-color: aqua;
+    font-style: italic;
+    font-family: "DejaVu Serif", serif;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: left;
+}
