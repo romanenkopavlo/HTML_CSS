@@ -1,9 +1,17 @@
 body {
     color: purple;
 }
+
 h1 {
     text-align: center;
+    font-size: 50px;
 }
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
 p {
     background-color: aqua;
     font-style: italic;
@@ -14,4 +22,38 @@ p {
     border: 2px solid black;
     padding: 10px;
     text-align: left;
+}
+div p {
+    color: white;
+    background-color: maroon;
+    border: 10px solid red;
+}
+
+div.par p{
+    color: brown;
+    background-color: chartreuse;
+    border: 15px solid yellow;
+}
+
+div p.par {
+    color: black;
+    background-color: darkorange;
+    border: 8px solid mediumorchid;
+}
+
+ol li {
+    color: deeppink;
+}
+
+ul li {
+    color: lime;
+}
+
+a:visited {
+    color: deeppink;
+}
+
+a:hover {
+    color: orangered;
+    font-size: 30px;
 }
